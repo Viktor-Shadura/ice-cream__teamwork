@@ -1,39 +1,33 @@
 <p class="test">modal-about</p>
+<button class="about-text__button" type="button"></button>
 
-<button
-class="menu-toggle js-open-menu button"
-aria-expanded="false"
-aria-controls="mobile-menu"
->
-read more
-<svg class="" width="18" height="18">
-  <use href="/src/images/icons.svg#icon-arrow-hover"></use>
-</svg>
-</button>
-
-
-
-
-  <!-- modal window -->
-
-<div class="backdrop is-hidden" data-modal>
-  <div class="modal">
-    <button type="submit" class="modal-cross " data-modal-close href="">
-      <svg class="" width="18" height="18">
-      <use href="/src/images/icons.svg#icon-close-black"></use>
-    </svg> </button>
-
+<button class="button" data-modal-open type="button">
+  Read more</button>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="submit" class="modal-cross" data-modal-close href="">
+                <svg class="" width="18" height="18">
+                  <use href="./images/icons.svg#icon-close-black"></use>
+                </svg> </button><div class="product">
        <h1 class="about_modal_title">How it’s made?</h1>
 
-  <iframe class="about_modal_video" width="560" height="315"
-    src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"
-     allowfullscreen>
-  </iframe>
+      <iframe class="about_modal_video" width="560" height="315"
+                    src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"
+                     allowfullscreen>
+      </iframe>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+             Hic tenetur sequi magnam veniam corrupti totam ut, reprehenderit
+             ab nobis nihil quod quaerat mollitia voluptas? Eveniet quam minima
+             dolorum iure harum.</p>
+                </div>
+              </div>
+            </div>
 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-  Hic tenetur sequi magnam veniam corrupti totam ut, reprehenderit
-   ab nobis nihil quod quaerat mollitia voluptas? Eveniet quam minima
-    dolorum iure harum.</p>
-  </div>
-</div>
-<!-- <script src="./js/modal.js"></script> -->
+
+<script defer
+src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"
+></script>
+
+<script src="../src/partials/modal.js"></script>
