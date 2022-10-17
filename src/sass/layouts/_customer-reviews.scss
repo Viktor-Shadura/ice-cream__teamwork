@@ -1,0 +1,46 @@
+.review{
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  letter-spacing: 0.04em;
+  background-color: teal;
+  color: #FCFCFC;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 255%;
+
+@media screen and (min-width:768px) {
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 186%;
+}
+
+@media screen and (min-width:1200px) {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 186%;
+ }
+}
+
+.customer {
+font-family: 'Montserrat';
+font-style: normal;
+text-align: center;
+color: #131313;
+font-weight: 500;
+font-size: 20px;
+line-height: 186%;
+
+@media screen and (min-width:768px) {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+ }
+
+ @media screen and (min-width:1200px) {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 186%;
+  }
+ }
+
