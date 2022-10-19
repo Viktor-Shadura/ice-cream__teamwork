@@ -1,0 +1,2 @@
+!function(){var e={openModalBtn:document.querySelector("[data-modal-open]"),closeModalBtn:document.querySelector("[data-modal-close]"),modal:document.querySelector("[data-modal]"),body:document.querySelector("body")};function o(){e.modal.classList.toggle("is-hidden")}e.openModalBtn.addEventListener("click",o),e.closeModalBtn.addEventListener("click",o),e.body.addEventListener("click",(function(o){var d=document.querySelector("div.backdrop");o.target===d&&e.modal.classList.toggle("is-hidden")}))}();
+//# sourceMappingURL=index.91d193b2.js.map
