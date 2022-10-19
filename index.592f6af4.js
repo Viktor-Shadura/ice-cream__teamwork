@@ -1,2 +1,0 @@
-!function(){var o={openModalBtns:document.querySelectorAll("[data-modal-products-open]"),closeModalBtn:document.querySelector("[data-modal-products-close]"),modal:document.querySelector("[data-modal-products]")};function e(){o.modal.classList.toggle("is-products-hidden")}o.openModalBtns.forEach((function(o){return o.addEventListener("click",e)})),o.closeModalBtn.addEventListener("click",e)}();
-//# sourceMappingURL=index.592f6af4.js.map
