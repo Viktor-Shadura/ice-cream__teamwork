@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,EAAE,oBAAoBC,MAAM,CAG1BC,MAAM,EACNC,aAAc","sources":["src/js/reviews-slider.js"],"sourcesContent":["$('.single-item-rtl').slick({\n  // autoplaySpeed: 7000,\n  // autoplay: true,\n  dots: true,\n  slidesToShow: 1,\n  // slidesToScroll: 1,\n});\n"],"names":["$","slick","dots","slidesToShow"],"version":3,"file":"index.67074d3f.js.map"}
